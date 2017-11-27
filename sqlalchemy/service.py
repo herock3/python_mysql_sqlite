@@ -1,5 +1,6 @@
-from SQLAIchemy.db import DBSession, Base, engine
-from SQLAIchemy.models import User
+from models import User
+
+from sqlalchemy.db import DBSession, Base, engine
 
 session = DBSession()
 

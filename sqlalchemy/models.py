@@ -1,7 +1,7 @@
 from sqlalchemy import Column, String
 
 # 定义User对象:
-from SQLAIchemy.db import Base
+from sqlalchemy.db import Base
 
 
 class User(Base):
